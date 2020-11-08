@@ -49,10 +49,11 @@ public class Main {
 
         System.out.println(daniel);
 
-        aiperi.receiveSalary(.getSalary());
+        aiperi.receiveSalary(aiperi.getSalary());
 
         System.out.println(aiperi);
 
 
     }
 }
+
